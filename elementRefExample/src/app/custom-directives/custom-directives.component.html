@@ -1,0 +1,38 @@
+<p>
+  Building directives in Angular 2+ is not much different than building components.
+  <br>
+  After all, components are just directives with a view attached.
+  <br>
+  In fact, there are three kinds of directives in Angular: <b>components</b>, <b>attribute directives</b> and <b>structural
+  directives</b>.
+</p>
+
+<p>
+  Structural Directives:
+  <br>
+  <b>NgIf</b>
+  <br>
+  <b>ngFor</b>
+  <br>
+  <b>ngSwitch</b>
+  <br>
+</p>
+
+
+<p>Shadow Directive</p>
+<ul>
+  <li>Objective 1: To make a custom Directive and apply style</li>
+  <li>Objective 2: To make a custom Directive and pass values</li>
+</ul>
+<b>
+  <span appShadow>Shadow Directive</span>
+</b>
+<br>
+<br>
+<br>
+<b>
+  <span appinputsDirective [appShadow]="'hotpink'"
+        [appShadowX]="'12px'"
+        [appShadowY]="'6px'"
+        [appShadowBlur]="'30px'">Aal Izz Well</span>
+</b>
